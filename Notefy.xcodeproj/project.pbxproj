@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529A5DDEC8B52AD8C80487E7 /* Pods_NotefyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C04B1A5C8C90B48F9971FA8 /* Pods_NotefyUITests.framework */; };
+		5801DD0CCDE2B459638950FD /* Pods_Notefy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CB07E895ECB1B6C429453D /* Pods_Notefy.framework */; };
+		7394440ED748E562CBF5BF60 /* Pods_NotefyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD407D508E2E2524EC1489 /* Pods_NotefyTests.framework */; };
 		84167E20208BDEC50079F663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84167E1F208BDEC50079F663 /* AppDelegate.swift */; };
-		84167E22208BDEC50079F663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84167E21208BDEC50079F663 /* ViewController.swift */; };
-		84167E25208BDEC50079F663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84167E23208BDEC50079F663 /* Main.storyboard */; };
 		84167E27208BDEC60079F663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84167E26208BDEC60079F663 /* Assets.xcassets */; };
 		84167E2A208BDEC60079F663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84167E28208BDEC60079F663 /* LaunchScreen.storyboard */; };
 		84167E35208BDEC60079F663 /* NotefyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84167E34208BDEC60079F663 /* NotefyTests.swift */; };
 		84167E40208BDEC60079F663 /* NotefyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84167E3F208BDEC60079F663 /* NotefyUITests.swift */; };
+		84BEE21D208BE34D004FD648 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEE21C208BE34D004FD648 /* HomeView.swift */; };
+		84BEE221208BE3C1004FD648 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEE220208BE3C1004FD648 /* View.swift */; };
+		84BEE224208BE50E004FD648 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEE223208BE50E004FD648 /* RootNavigationController.swift */; };
+		84BEE228208BE755004FD648 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEE227208BE755004FD648 /* Localize.swift */; };
+		84BEE22B208BE7F8004FD648 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BEE22D208BE7F8004FD648 /* Localizable.strings */; };
+		84BEE231208BE894004FD648 /* LocalizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEE230208BE894004FD648 /* LocalizeView.swift */; };
+		84BEE233208BE8E5004FD648 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEE232208BE8E5004FD648 /* AppConfig.swift */; };
+		84BEE235208BE919004FD648 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEE234208BE919004FD648 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09166902637E541802591F22 /* Pods-NotefyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotefyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotefyTests/Pods-NotefyTests.release.xcconfig"; sourceTree = "<group>"; };
+		096A675BD7AD3214971DD4E0 /* Pods-Notefy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notefy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notefy/Pods-Notefy.release.xcconfig"; sourceTree = "<group>"; };
+		10571B13C57A86CBED1B5DBE /* Pods-NotefyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotefyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotefyTests/Pods-NotefyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		32BDEB62104F9BD1B1D47D25 /* Pods-NotefyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotefyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotefyUITests/Pods-NotefyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4EE023BBFD5F0295FE4ADEF8 /* Pods-Notefy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notefy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notefy/Pods-Notefy.debug.xcconfig"; sourceTree = "<group>"; };
+		60BD407D508E2E2524EC1489 /* Pods_NotefyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotefyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CB07E895ECB1B6C429453D /* Pods_Notefy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notefy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84167E1C208BDEC50079F663 /* Notefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84167E1F208BDEC50079F663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84167E21208BDEC50079F663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84167E24208BDEC50079F663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84167E26208BDEC60079F663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84167E29208BDEC60079F663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84167E2B208BDEC60079F663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		84167E3B208BDEC60079F663 /* NotefyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotefyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84167E3F208BDEC60079F663 /* NotefyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotefyUITests.swift; sourceTree = "<group>"; };
 		84167E41208BDEC60079F663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BEE21C208BE34D004FD648 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		84BEE220208BE3C1004FD648 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		84BEE223208BE50E004FD648 /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		84BEE227208BE755004FD648 /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
+		84BEE22C208BE7F8004FD648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84BEE22E208BE83D004FD648 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84BEE22F208BE83D004FD648 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		84BEE230208BE894004FD648 /* LocalizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeView.swift; sourceTree = "<group>"; };
+		84BEE232208BE8E5004FD648 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		84BEE234208BE919004FD648 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8C04B1A5C8C90B48F9971FA8 /* Pods_NotefyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotefyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F2A1E78B167F4C70FA4DA8 /* Pods-NotefyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotefyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotefyUITests/Pods-NotefyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5801DD0CCDE2B459638950FD /* Pods_Notefy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7394440ED748E562CBF5BF60 /* Pods_NotefyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529A5DDEC8B52AD8C80487E7 /* Pods_NotefyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F4B68B5957C0870B69D62DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE023BBFD5F0295FE4ADEF8 /* Pods-Notefy.debug.xcconfig */,
+				096A675BD7AD3214971DD4E0 /* Pods-Notefy.release.xcconfig */,
+				10571B13C57A86CBED1B5DBE /* Pods-NotefyTests.debug.xcconfig */,
+				09166902637E541802591F22 /* Pods-NotefyTests.release.xcconfig */,
+				F2F2A1E78B167F4C70FA4DA8 /* Pods-NotefyUITests.debug.xcconfig */,
+				32BDEB62104F9BD1B1D47D25 /* Pods-NotefyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84167E13208BDEC40079F663 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				84167E33208BDEC60079F663 /* NotefyTests */,
 				84167E3E208BDEC60079F663 /* NotefyUITests */,
 				84167E1D208BDEC50079F663 /* Products */,
+				4F4B68B5957C0870B69D62DE /* Pods */,
+				967AA3A1B587A716E44F3A2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +141,11 @@
 		84167E1E208BDEC50079F663 /* Notefy */ = {
 			isa = PBXGroup;
 			children = (
-				84167E1F208BDEC50079F663 /* AppDelegate.swift */,
-				84167E21208BDEC50079F663 /* ViewController.swift */,
-				84167E23208BDEC50079F663 /* Main.storyboard */,
-				84167E26208BDEC60079F663 /* Assets.xcassets */,
-				84167E28208BDEC60079F663 /* LaunchScreen.storyboard */,
-				84167E2B208BDEC60079F663 /* Info.plist */,
+				84BEE219208BE07A004FD648 /* App Config */,
+				84BEE218208BE068004FD648 /* Business */,
+				84BEE217208BE062004FD648 /* Presentation */,
+				84BEE225208BE737004FD648 /* Shared */,
+				84BEE21F208BE3AA004FD648 /* Supporting Files */,
 			);
 			path = Notefy;
 			sourceTree = "<group>";
@@ -125,6 +168,111 @@
 			path = NotefyUITests;
 			sourceTree = "<group>";
 		};
+		84BEE217208BE062004FD648 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE222208BE4EA004FD648 /* Navigation Controller */,
+				84BEE21A208BE299004FD648 /* Home */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		84BEE218208BE068004FD648 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		84BEE219208BE07A004FD648 /* App Config */ = {
+			isa = PBXGroup;
+			children = (
+				84167E1F208BDEC50079F663 /* AppDelegate.swift */,
+				84BEE232208BE8E5004FD648 /* AppConfig.swift */,
+			);
+			path = "App Config";
+			sourceTree = "<group>";
+		};
+		84BEE21A208BE299004FD648 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE21B208BE347004FD648 /* View */,
+				84BEE236208BE91C004FD648 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84BEE21B208BE347004FD648 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE21C208BE34D004FD648 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84BEE21E208BE3A2004FD648 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE220208BE3C1004FD648 /* View.swift */,
+				84BEE230208BE894004FD648 /* LocalizeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84BEE21F208BE3AA004FD648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84167E26208BDEC60079F663 /* Assets.xcassets */,
+				84167E28208BDEC60079F663 /* LaunchScreen.storyboard */,
+				84167E2B208BDEC60079F663 /* Info.plist */,
+				84BEE22D208BE7F8004FD648 /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BEE222208BE4EA004FD648 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE223208BE50E004FD648 /* RootNavigationController.swift */,
+			);
+			path = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		84BEE225208BE737004FD648 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE226208BE748004FD648 /* Localizations */,
+				84BEE21E208BE3A2004FD648 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		84BEE226208BE748004FD648 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE227208BE755004FD648 /* Localize.swift */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		84BEE236208BE91C004FD648 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84BEE234208BE919004FD648 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		967AA3A1B587A716E44F3A2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66CB07E895ECB1B6C429453D /* Pods_Notefy.framework */,
+				60BD407D508E2E2524EC1489 /* Pods_NotefyTests.framework */,
+				8C04B1A5C8C90B48F9971FA8 /* Pods_NotefyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84167E44208BDEC60079F663 /* Build configuration list for PBXNativeTarget "Notefy" */;
 			buildPhases = (
+				AD59D0E33DF608EF66B6DAE9 /* [CP] Check Pods Manifest.lock */,
 				84167E18208BDEC50079F663 /* Sources */,
 				84167E19208BDEC50079F663 /* Frameworks */,
 				84167E1A208BDEC50079F663 /* Resources */,
+				A7EAAE210DD7D0C6945160BA /* [CP] Embed Pods Frameworks */,
+				BBEBDF76A0A6C60924D7A712 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84167E47208BDEC60079F663 /* Build configuration list for PBXNativeTarget "NotefyTests" */;
 			buildPhases = (
+				D9E6A74BF9ADDD804158AD23 /* [CP] Check Pods Manifest.lock */,
 				84167E2C208BDEC60079F663 /* Sources */,
 				84167E2D208BDEC60079F663 /* Frameworks */,
 				84167E2E208BDEC60079F663 /* Resources */,
+				BBF276422FBC3C798F8256A4 /* [CP] Embed Pods Frameworks */,
+				265F42A9AC138265B2B8FAD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84167E4A208BDEC60079F663 /* Build configuration list for PBXNativeTarget "NotefyUITests" */;
 			buildPhases = (
+				1D613CAB54D5BC934DD2654A /* [CP] Check Pods Manifest.lock */,
 				84167E37208BDEC60079F663 /* Sources */,
 				84167E38208BDEC60079F663 /* Frameworks */,
 				84167E39208BDEC60079F663 /* Resources */,
+				F64441106AF824888DE5F4EF /* [CP] Embed Pods Frameworks */,
+				EC1E393C3C7355CE3241ECA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +368,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 84167E13208BDEC40079F663;
 			productRefGroup = 84167E1D208BDEC50079F663 /* Products */;
@@ -231,7 +389,7 @@
 			files = (
 				84167E2A208BDEC60079F663 /* LaunchScreen.storyboard in Resources */,
 				84167E27208BDEC60079F663 /* Assets.xcassets in Resources */,
-				84167E25208BDEC50079F663 /* Main.storyboard in Resources */,
+				84BEE22B208BE7F8004FD648 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +409,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D613CAB54D5BC934DD2654A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotefyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		265F42A9AC138265B2B8FAD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotefyTests/Pods-NotefyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7EAAE210DD7D0C6945160BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Notefy/Pods-Notefy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notefy/Pods-Notefy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD59D0E33DF608EF66B6DAE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notefy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEBDF76A0A6C60924D7A712 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notefy/Pods-Notefy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF276422FBC3C798F8256A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotefyTests/Pods-NotefyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E6A74BF9ADDD804158AD23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotefyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1E393C3C7355CE3241ECA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotefyUITests/Pods-NotefyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64441106AF824888DE5F4EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotefyUITests/Pods-NotefyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84167E18208BDEC50079F663 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84167E22208BDEC50079F663 /* ViewController.swift in Sources */,
 				84167E20208BDEC50079F663 /* AppDelegate.swift in Sources */,
+				84BEE224208BE50E004FD648 /* RootNavigationController.swift in Sources */,
+				84BEE228208BE755004FD648 /* Localize.swift in Sources */,
+				84BEE235208BE919004FD648 /* HomeViewController.swift in Sources */,
+				84BEE233208BE8E5004FD648 /* AppConfig.swift in Sources */,
+				84BEE231208BE894004FD648 /* LocalizeView.swift in Sources */,
+				84BEE21D208BE34D004FD648 /* HomeView.swift in Sources */,
+				84BEE221208BE3C1004FD648 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +613,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84167E23208BDEC50079F663 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84167E24208BDEC50079F663 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84167E28208BDEC60079F663 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84167E29208BDEC60079F663 /* Base */,
+				84BEE22E208BE83D004FD648 /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84BEE22D208BE7F8004FD648 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BEE22C208BE7F8004FD648 /* en */,
+				84BEE22F208BE83D004FD648 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +699,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -428,11 +752,12 @@
 		};
 		84167E45208BDEC60079F663 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE023BBFD5F0295FE4ADEF8 /* Pods-Notefy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X88GSA8KA;
-				INFOPLIST_FILE = Notefy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Notefy/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +771,12 @@
 		};
 		84167E46208BDEC60079F663 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096A675BD7AD3214971DD4E0 /* Pods-Notefy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2X88GSA8KA;
-				INFOPLIST_FILE = Notefy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Notefy/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +790,7 @@
 		};
 		84167E48208BDEC60079F663 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10571B13C57A86CBED1B5DBE /* Pods-NotefyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +812,7 @@
 		};
 		84167E49208BDEC60079F663 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09166902637E541802591F22 /* Pods-NotefyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +834,7 @@
 		};
 		84167E4B208BDEC60079F663 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F2A1E78B167F4C70FA4DA8 /* Pods-NotefyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +855,7 @@
 		};
 		84167E4C208BDEC60079F663 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BDEB62104F9BD1B1D47D25 /* Pods-NotefyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

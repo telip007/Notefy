@@ -1,0 +1,23 @@
+PODS:
+  - Realm (3.2.0):
+    - Realm/Headers (= 3.2.0)
+  - Realm/Headers (3.2.0)
+  - RealmSwift (3.2.0):
+    - Realm (= 3.2.0)
+  - Swinject (2.2.0)
+  - TinyConstraints (3.1.0)
+
+DEPENDENCIES:
+  - RealmSwift (~> 3.2.0)
+  - Swinject (~> 2.2.0)
+  - TinyConstraints (~> 3.1.0)
+
+SPEC CHECKSUMS:
+  Realm: ae552b9b9eca3a12374a589fa842f220e286a80a
+  RealmSwift: 05727129547dcab3fe828bd87bc30be903736b9c
+  Swinject: 4ca48bca7de5f398229a26abe1ac902b9f3ee541
+  TinyConstraints: 4721a4b303c799328867078ade6560e152df54d1
+
+PODFILE CHECKSUM: b7394b96a88e750c0d7975d515a8d4b6419141cd
+
+COCOAPODS: 1.4.0
